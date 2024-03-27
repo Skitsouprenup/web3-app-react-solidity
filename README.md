@@ -39,6 +39,8 @@ SEPOLIA_URL -> Sepolia testnet RPC endpoint of your provider. Visit [alchemy](ht
 SECRET_KEY -> secret key of your RPC endpoint that provided by the provider of your endpoint.
 
 ## Notes
+At the time of this writing, hardhat doesn't support version 21 of node. Thus, you need to use a lower version of node. When I created this project, I use node 'v18.19.1 LTS' and npm 'v10.5.0'.
+
 Before we deploy our contract to a network, we can test our contract in our machine first. To do this, go to the 'smart_contract' directory and type this command:  
 `npx hardhat node`
 

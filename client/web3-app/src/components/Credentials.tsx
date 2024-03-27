@@ -18,7 +18,6 @@ const Credentials = () => {
   const[transactionFields, setTransactionFields] = 
     useState<TransactionFields>(transactionFieldsDefaultValues);
 
-
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>, 
     name: string
